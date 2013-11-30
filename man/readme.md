@@ -14,6 +14,8 @@ This is the process for making changes to the man:
 - Run `ronn  --style toc man/roots.1.ronn`, which will compile `roots.1.html` and `roots.1`
 - PR your changes into the main roots repo
 
+Also, if you change the synopsis you should update `/lib/commands/help.js`. 
+
 #Updating Roots.cx
 
 We gotta keep the page on roots.cx sync, so use these steps to update it:
